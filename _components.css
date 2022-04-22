@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Patrick+Hand&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -43,11 +31,4 @@ a:visited {
   border-radius: 7px;
   padding: 10px 20px 10px 20px;
   margin-right: 40px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
 }
