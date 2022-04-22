@@ -1,25 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fredoka+One&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fredoka+One&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fredoka+One&family=Patrick+Hand&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
 }
 
 .logo {
@@ -32,17 +23,43 @@ a:visited {
   border-radius: 50px;
 }
 .logo a {
-  color: #212183;
+  color: #3b3b7a;
   font-family: "Patrick hand", curseive;
   font-size: 60px;
 }
 
-.Login-button {
-  color: #212183;
-  border: solid #212183 2px;
+.button-login {
+  font-family: "Akshar", sans-sesrif;
+  font-weight: 1000;
+  color: #3b3b7a;
+  border: solid #3b3b7a 2px;
   border-radius: 7px;
-  padding: 10px 20px 10px 20px;
-  margin-right: 40px;
+  padding: 12px 30px 12px 30px;
+  margin-right: 20px;
+}
+
+.button-primary-color {
+  width: 175px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #3b3b7a;
+  color: #fafafafa;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
 nav {
@@ -50,4 +67,43 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
+}
+
+.titleAndImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.titleAndImage h1 {
+  color: #00ccff;
+  font-family: "Fredoka One", curseive;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-indent: -20px;
+}
+
+.dadvice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Akshar", sans-sesrif;
+}
+.dadvice h2 {
+  color: #3b3b7a;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  text-indent: -20px;
+}
+.dadvice h3 {
+  color: #00ccff;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+.dadvice p {
+  color: #3b3b7a;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  text-indent: 3px;
+  text-align: center;
 }
