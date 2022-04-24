@@ -28,15 +28,48 @@
     margin-right: 20px;
 }
 
-.button-primary-color{
+.button-primary-color {
     width: 175px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    font-family: $font-primary;
     background-color: $color-font-primary;
     color: $color-white;
     font-size: 1.2rem;
     margin-top: 20px;
+}
+
+.infoAndImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    p {
+        margin: 7vw 0 7vw 0;
+        color: $color-font-primary;
+        font-family: $font-primary;
+    }
+
+    p::first-line {
+        font-weight: bold;
+    }
+
+}
+
+footer {
+    background-color: rgb(228, 228, 176);
+    margin-top: 15vw;
+    text-align: center;
+    h4 {
+        padding: 3vw;
+        font-family: $font-primary;
+    }
 }

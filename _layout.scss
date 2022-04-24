@@ -49,3 +49,16 @@ nav {
         text-align: center;
     }
 }
+
+.appInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    h4{
+        color: $color-font-primary;
+        font-family: $font-primary;
+        font-size: 1.2rem;
+        margin-top: 3vh;
+    }
+}
